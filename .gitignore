@@ -1,0 +1,9 @@
+# Block node_modules in both client and server folders
+client/node_modules/
+server/node_modules/
+
+# Block frontend build output
+client/dist/
+
+# Block backend environment secrets and keys
+server/.env
